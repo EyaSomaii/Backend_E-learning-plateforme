@@ -80,7 +80,7 @@ exports.AjouterUtilisateur = async (req, res) => {
 
         auth: {
           user: "eya.somai134t@gmail.com",
-          pass: "ewofuxjfibdffnvv",
+          pass: "****",
         },
         secure: false,
       });

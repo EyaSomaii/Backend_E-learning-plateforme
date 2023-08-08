@@ -81,7 +81,7 @@ app.use("/ForumRoute", ForumRoute);
 
 mongoose
   .connect(
-    "mongodb+srv://admin:XwrD6YmwrqJ0N3CV@cluster0.ksah9.mongodb.net/myFirstDatabase?retryWrites=true&w=majority",
+    "mongodb+srv://admin:****@cluster0.ksah9.mongodb.net/myFirstDatabase?retryWrites=true&w=majority",
     { useNewUrlParser: true, useUnifiedTopology: true }
   )
   .then(() => console.log("Connexion à MongoDB réussie !"))
